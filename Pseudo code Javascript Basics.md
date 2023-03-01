@@ -1,0 +1,27 @@
+- Console welcome message;
+- Create empty profile object;
+- Prompt question "first_name"; 
+	- if empty  -> continue
+	- else-> store in profile object
+- Prompt question "last_name";
+	- if empty -> continue
+	- else -> store in profile object
+- Prompt question "age";
+	- cast to Number
+	- if age < 18  -> break and prompt "you can only sign up if you are of age"
+	- else -> store in profile object
+- Prompt question "gender" (M, F or X);
+	- if invalid ->  log invalid message - continue
+	- else -> store in profile object
+- Prompt question "gender_interest";
+	- if invalid ->  log invalid message - continue
+	- else -> storie in profile object
+- Prompt question  "location" (city or rural);
+	- if invalid ->  log invalid message - continue
+- Prompt question "min_age_interest ";
+	- cast to Number
+	- if min_age_interest < 18 ->  log message min age is 18 - continue
+- Prompt question "max_age_interest";
+	- Cast to Number
+	- If max_age_interest <= min_age_interest -> log invalid message - continue
+ -----
